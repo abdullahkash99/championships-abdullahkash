@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>بطولات حفل تقاعد الأستاذ محمد صائغ</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#faf6ee;--card:#fff;--ink:#2a2118;--mute:#7a6e60;--line:#e6dccb;--acc:#9a6b1f;--acc2:#c99a3b;--ok:#2f7d4f;--bad:#b3392f;--soft:#f4ecdb}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17130d;--card:#221c13;--ink:#f3eadb;--mute:#a89a85;--line:#3a3022;--acc:#e0b25a;--acc2:#c99a3b;--ok:#5cc08a;--bad:#ef7d72;--soft:#2c2417}}
+:root[data-theme="dark"]{--bg:#17130d;--card:#221c13;--ink:#f3eadb;--mute:#a89a85;--line:#3a3022;--acc:#e0b25a;--acc2:#c99a3b;--ok:#5cc08a;--bad:#ef7d72;--soft:#2c2417}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Tajawal',Tahoma,Arial,sans-serif;line-height:1.6}
+.wrap{max-width:920px;margin:0 auto;padding:16px}
+header{text-align:center;padding:22px 8px 10px}
+header .sub{color:var(--acc);font-weight:700;letter-spacing:.5px}
+header h1{margin:4px 0;font-size:clamp(22px,5vw,34px);font-weight:800}
+header p{margin:0;color:var(--mute)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0}
+h2{margin:0 0 10px;font-size:20px}
+h3{margin:0 0 8px;font-size:16px}
+button,select,input{font:inherit;color:inherit}
+button{cursor:pointer;border:1px solid var(--line);background:var(--soft);padding:8px 14px;border-radius:10px}
+button.p{background:var(--acc);color:#fff;border-color:var(--acc);font-weight:700}
+button.d{color:var(--bad)}
+button:disabled{opacity:.5;cursor:default}
+input,select{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:9px 12px;width:100%}
+.opts{display:grid;gap:10px;margin:12px 0}
+.opt{display:flex;align-items:center;gap:12px;border:2px solid var(--line);border-radius:14px;padding:14px;cursor:pointer;background:var(--bg)}
+.opt.sel{border-color:var(--acc);background:var(--soft)}
+.opt .e{font-size:28px}
+.opt b{font-size:17px}
+.opt small{display:block;color:var(--mute)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.row>input{flex:1;min-width:140px}
+.plist{list-style:none;margin:8px 0;padding:0}
+.plist li{display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px dashed var(--line)}
+.plist li span{flex:1}
+.plist .n{color:var(--mute);width:24px}
+.bracket{display:flex;gap:18px;overflow-x:auto;padding:8px 0 12px}
+.round{min-width:250px;display:flex;flex-direction:column;justify-content:space-around;gap:12px}
+.round h4{margin:0;text-align:center;color:var(--acc);font-size:14px}
+.m{border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--bg)}
+.s{display:flex;align-items:center;gap:6px;padding:8px 10px;border-bottom:1px solid var(--line);min-height:40px}
+.s:last-child{border-bottom:0}
+.s.w{background:var(--soft);font-weight:800;color:var(--ok)}
+.s.l{color:var(--mute);text-decoration:line-through}
+.s.t{color:var(--mute)}
+.s span{flex:1}
+.s select{padding:4px 6px;font-size:14px}
+.s button{padding:3px 8px;font-size:13px}
+.champ{text-align:center;font-size:20px;font-weight:800;color:var(--ok);margin-top:6px}
+.note{color:var(--mute);font-size:14px}
+.msg{padding:10px 12px;border-radius:10px;background:var(--soft);margin:8px 0}
+.links input{direction:ltr;text-align:left;font-size:13px}
+.fields label{display:block;margin:10px 0 4px;font-weight:700;font-size:14px}
+.fields{margin-bottom:14px}
+.s input.sc{width:58px;flex:none;text-align:center;padding:4px 6px}
+.scv{min-width:24px;text-align:center;color:var(--acc)}
+.save-row{justify-content:flex-end;background:var(--soft)}
+.tbl{width:100%;border-collapse:collapse;font-size:15px;margin:6px 0 12px}
+.tbl th,.tbl td{border:1px solid var(--line);padding:8px 10px;text-align:right}
+.tbl th{background:var(--soft);color:var(--acc)}
+.tbl td.tn{font-weight:800}
+.tag{display:inline-block;background:var(--soft);border-radius:8px;padding:2px 8px;font-size:13px;color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="sub">🏆 حفل تقاعد</div>
+<h1>الأستاذ محمد صائغ</h1>
+<p>بطولات الحفل</p>
+</header>
+<div id="app"><div class="card note">جارٍ التحميل…</div></div>
+<p class="note" style="text-align:center;font-size:12px">نسخة 10 — تعديل الحد الأقصى من صفحة الأدمن</p>
+</div>
+<script>
+const T=[
+{id:'belot',n:'بطولة البلوت العالمية',e:'🃏'},
+{id:'domino',n:'بطولة الضومنة التاريخية',e:'🎲'},
+{id:'tennis',n:'بطولة التنس للمحترفين',e:'🎾'}];
+const tn=id=>(T.find(t=>t.id===id)||{}).n||'';
+const $app=document.getElementById('app');
+const ADMIN=location.pathname.replace(/\/+$/,'')==='/admin';
+let cid=localStorage.getItem('cid');
+if(!cid){cid=Array.from(crypto.getRandomValues(new Uint8Array(12))).map(b=>b.toString(16).padStart(2,'0')).join('');localStorage.setItem('cid',cid)}
+const me='c_'+cid;
+let token=sessionStorage.getItem('tk')||'';
+let regs={},draws={},counts={},ready=false,loadErr=false,last='';
+let LIM={belot:16};
+const cnt=t=>(ADMIN&&token)?regList(t).length:(counts[t]||0);
+const isFull=t=>!!LIM[t]&&cnt(t)>=LIM[t];
+let tab='belot',form={name:'',t:'',team:'',p1:'',p2:''},pending=false;
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const regList=t=>Object.entries(regs).filter(([,r])=>r.t===t).map(([i,r])=>({i,n:r.n,ts:r.ts||0,p1:r.p1,p2:r.p2,demo:r.demo})).sort((a,b)=>a.ts-b.ts);
+const slotLines=p=>{if(!p)return '';const r=p.p1?p:regs[p.i];if(!r||!r.p1)return '';return '<small class="note" style="display:block;font-weight:400;text-decoration:none;line-height:1.5">👤 '+esc(r.p1)+'<br>👤 '+esc(r.p2)+'</small>'};
+const triple=s=>String(s||'').trim().split(/\s+/).filter(Boolean).length>=3;
+const getTeams=t=>{try{const d=draws[t+'_teams'];return d?JSON.parse(d.r).teams:null}catch(e){return null}};
+const inTeams=(T,id)=>T.some(x=>x.ids.includes(id));
+const allSlots=rd=>{const seen={},out=[];rd.forEach(m=>['a','b'].forEach(s=>{const x=m[s];if(x&&!seen[x.i]){seen[x.i]=1;out.push(x)}}));return out};
+const inDraw=(R,id)=>R[0].some(m=>['a','b'].some(s=>m[s]&&(m[s].i===id||(m[s].ids&&m[s].ids.includes(id)))));
+const teamOf=r=>r&&r.t==='tennis'&&r.p1?' <small class="note">('+esc(r.p1)+' و '+esc(r.p2)+')</small>':'';
+const slotPlayers=p=>p?(p.p1?teamOf({t:'tennis',p1:p.p1,p2:p.p2}):teamOf(regs[p.i])):'';
+
+async function api(method,url,body){
+  const r=await fetch(url,{method,headers:{'Content-Type':'application/json',Authorization:'Bearer '+token},body:body?JSON.stringify(body):undefined});
+  let j={};try{j=await r.json()}catch(e){}
+  if(r.status===401&&ADMIN&&url!=='/api/admin/login'){token='';sessionStorage.removeItem('tk');render(true)}
+  if(!r.ok)throw Object.assign(new Error(j.error||r.status),{status:r.status});
+  return j;
+}
+async function load(){
+  try{
+    const adm=ADMIN&&token;
+    const r=await fetch(adm?'/api/admin/state':'/api/state?cid='+cid,adm?{headers:{Authorization:'Bearer '+token}}:undefined);
+    if(r.status===401&&adm){token='';sessionStorage.removeItem('tk');last='';render(true);return}
+    const txt=await r.text();
+    if(txt!==last){last=txt;const s=JSON.parse(txt);regs=s.regs||{};draws=s.draws||{};counts=s.counts||{};if(s.limits)LIM=s.limits;ready=true;loadErr=false;render()}
+    else if(!ready){ready=true;render()}
+  }catch(e){if(!ready){loadErr=true;render(true)}}
+}
+
+/* ---------- bracket logic ---------- */
+function makeRounds(list){
+  const n=list.length;let size=2;while(size<n)size*=2;
+  const sh=list.slice();for(let i=sh.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[sh[i],sh[j]]=[sh[j],sh[i]]}
+  const slots=Array(size).fill(null);let k=0;
+  for(let i=0;i<size&&k<n;i+=2)slots[i]=sh[k++];
+  for(let i=1;i<size&&k<n;i+=2)slots[i]=sh[k++];
+  const rounds=[];
+  rounds.push(Array.from({length:size/2},(_,i)=>({a:slots[2*i]?Object.assign({},slots[2*i]):null,b:slots[2*i+1]?Object.assign({},slots[2*i+1]):null,w:null})));
+  for(let s=size/4;s>=1;s/=2)rounds.push(Array.from({length:s},()=>({a:null,b:null,w:null})));
+  return normalize(rounds);
+}
+const TEAM_NAMES=['النسور','الصقور','الفهود','الأسود','النمور','الذئاب','العقبان','الشواهين','الجوارح','الفرسان','الأبطال','الأساطير','العمالقة','الصناديد','البواسل','الجبابرة','الرعد','البرق','الإعصار','العاصفة','الزلزال','البركان','الهلال','النجوم','القمم','الأطلس','الملوك','السلاطين','القناصة','الحراس','المغاوير','الأشاوس','الصقور الذهبية','الفهود السوداء'];
+function makeTeams(list){
+  const sh=list.slice();for(let i=sh.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[sh[i],sh[j]]=[sh[j],sh[i]]}
+  const teams=[];
+  const pool=TEAM_NAMES.slice();for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]]}
+  for(let k=0;k+1<sh.length;k+=2){const a=sh[k],b=sh[k+1];const q=teams.length;teams.push({i:'T'+(q+1)+Math.random().toString(36).slice(2,6),n:q<pool.length?pool[q]:pool[q%pool.length]+' '+(Math.floor(q/pool.length)+1),p1:a.n,p2:b.n,ids:[a.i,b.i]})}
+  return {teams,spare:sh.length%2?sh[sh.length-1]:null};
+}
+function normalize(R){
+  R.forEach((rd,r)=>rd.forEach((m,i)=>{
+    if(r>0){m.a=winSlot(R[r-1][2*i]);m.b=winSlot(R[r-1][2*i+1])}
+    else{const x=!!m.a,y=!!m.b;if(x&&!y)m.w=m.a.i;else if(y&&!x)m.w=m.b.i}
+    if(m.sk&&m.sk!==((m.a?m.a.i:'')+'|'+(m.b?m.b.i:''))){m.w=null;delete m.sa;delete m.sb;delete m.sk}
+    if(m.w&&!((m.a&&m.a.i===m.w)||(m.b&&m.b.i===m.w)))m.w=null;
+  }));
+  return R;
+}
+function winSlot(m){if(!m||!m.w)return null;return (m.a&&m.a.i===m.w)?m.a:(m.b&&m.b.i===m.w)?m.b:null}
+const getR=t=>{try{return draws[t]?JSON.parse(draws[t].r):null}catch(e){return null}};
+const roundName=(r,total)=>{const left=total-r;return left===1?'النهائي':left===2?'نصف النهائي':left===3?'ربع النهائي':'الدور '+(r+1)};
+async function saveR(t,R){try{await api('PUT','/api/admin/draw/'+t,{r:JSON.stringify(normalize(R))});await load()}catch(e){alert('تعذّر الحفظ')}}
+
+/* ---------- views ---------- */
+function bracketHTML(t,edit){
+  const R=getR(t);
+  if(!R)return '<div class="msg">لم تُجرَ القرعة بعد.</div>';
+  const pool=t==='tennis'?regList(t):allSlots(R[0]);
+  let h='<div class="bracket">';
+  R.forEach((rd,r)=>{
+    h+='<div class="round"><h4>'+roundName(r,R.length)+'</h4>';
+    rd.forEach((m,i)=>{
+      h+='<div class="m">';
+      ['a','b'].forEach(side=>{
+        const p=m[side];const cls=m.w&&p?(m.w===p.i?'w':'l'):(p?'':'t');
+        h+='<div class="s '+cls+'">';
+        if(edit&&r===0){
+          h+='<select data-slot="'+t+'|'+r+'|'+i+'|'+side+'">'+(t==='tennis'?'<option value="">— فارغ (BYE) —</option>':'')+
+          pool.map(x=>'<option value="'+esc(x.i)+'"'+(p&&p.i===x.i?' selected':'')+'>'+esc(x.n)+'</option>').join('')+
+          (p&&!pool.find(x=>x.i===p.i)?'<option value="'+esc(p.i)+'" selected>'+esc(p.n)+'</option>':'')+'</select>';
+        }else h+='<span>'+(p?esc(p.n)+slotLines(p):(r===0?'BYE':'—'))+'</span>';
+        const sv=side==='a'?m.sa:m.sb;
+        if(edit&&m.a&&m.b){h+='<input class="sc" type="number" min="0" inputmode="numeric" placeholder="0" data-sc="'+t+'|'+r+'|'+i+'|'+side+'" value="'+(sv!=null?sv:'')+'">'}
+        else if(sv!=null&&p){h+='<b class="scv">'+sv+'</b>'}
+        if(edit&&p&&(m.a&&m.b)){h+='<button data-win="'+t+'|'+r+'|'+i+'|'+esc(p.i)+'">'+(m.w===p.i?'✓ فائز':'فاز')+'</button>'}
+        h+='</div>';
+      });
+      if(edit&&m.a&&m.b)h+='<div class="s save-row"><button class="p" data-save="'+t+'|'+r+'|'+i+'">💾 حفظ النتيجة</button>'+(m.w?'<button class="d" data-clr="'+t+'|'+r+'|'+i+'">مسح</button>':'')+'</div>';
+      h+='</div>';
+    });
+    h+='</div>';
+  });
+  h+='</div>';
+  const ch=winSlot(R[R.length-1][0]);
+  if(ch)h+='<div class="champ">🏆 بطل '+esc(tn(t))+': '+esc(ch.n)+slotPlayers(ch)+'</div>';
+  return h;
+}
+function tabsHTML(){return '<div class="tabs">'+T.map(x=>'<button data-tab="'+x.id+'" class="'+(tab===x.id?'on':'')+'">'+x.e+' '+esc(x.n)+'</button>').join('')+'</div>'}
+function playersHTML(t){
+  const l=regList(t);
+  return '<p class="note">'+(t==='tennis'?'الفرق':'المشتركون')+' ('+l.length+'): '+(l.length?l.map(x=>'<span class="tag">'+esc(x.n)+(t==='tennis'?' ('+esc(x.p1)+' و '+esc(x.p2)+')':'')+'</span>').join(' '):'لا يوجد بعد')+'</p>';
+}
+function formFields(){
+  if(!form.t)return '';
+  if(form.t==='tennis')return '<div class="fields"><label>اسم الفريق</label><input id="tm" placeholder="اسم الفريق" value="'+esc(form.team)+'" maxlength="40"><label>اللاعب الأول (اسم ثلاثي)</label><input id="p1" placeholder="الاسم الثلاثي" value="'+esc(form.p1)+'" maxlength="40"><label>اللاعب الثاني (اسم ثلاثي)</label><input id="p2" placeholder="الاسم الثلاثي" value="'+esc(form.p2)+'" maxlength="40"></div>';
+  return '<div class="fields"><label>الاسم الثلاثي</label><input id="nm" placeholder="مثال: محمد أحمد صائغ" value="'+esc(form.name)+'" maxlength="40"><p class="note">سيتم اختيار زميلك في الفريق (لاعبان) عشوائيًا عند إجراء القرعة.</p></div>';
+}
+function joinView(){
+  const mine=regs[me];
+  let h='<div class="card"><h2>التسجيل في البطولات</h2>';
+  if(mine){
+    h+='<div class="msg">✅ '+(mine.t==='tennis'?'تم تسجيل الفريق <b>'+esc(mine.n)+'</b>'+teamOf(mine):'تم تسجيلك باسم <b>'+esc(mine.n)+'</b>')+' في <b>'+esc(tn(mine.t))+'</b>.<br><span class="note">لكل مشترك بطولة واحدة فقط. لأي تعديل تواصل مع المنظّم.</span></div>';
+  }else{
+    h+='<p class="note">اختر بطولة واحدة فقط. الاسم يجب أن يكون ثلاثيًا (الاسم الأول + اسم الأب + اسم العائلة).</p><div class="opts">'+
+    T.map(x=>'<div class="opt '+(form.t===x.id?'sel':'')+'" data-pick="'+x.id+'" style="'+(isFull(x.id)?'opacity:.6':'')+'"><span class="e">'+x.e+'</span><div><b>'+esc(x.n)+'</b><small>'+cnt(x.id)+(LIM[x.id]?' / '+LIM[x.id]:'')+(x.id==='tennis'?' فريق (كل فريق لاعبان)':' مشترك')+(isFull(x.id)?' — <b style="color:var(--bad)">اكتمل العدد</b>':'')+'</small></div></div>').join('')+'</div>'+formFields()+
+    (form.t?'<button class="p" id="go" style="width:100%">تسجيل</button>':'');
+  }
+  return h+'</div><div class="card"><h2>النتائج والقرعة</h2>'+tabsHTML()+(teamsTable(tab)||publicNote(tab))+bracketHTML(tab,false)+'</div>';
+}
+function loginView(){
+  return '<div class="card"><h2>دخول الأدمن</h2><div class="row"><input id="pw" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" dir="ltr" placeholder="كلمة المرور"><button class="p" id="login">دخول</button></div></div>';
+}
+function drawControls(l,R){
+  if(tab==='tennis')return '<div class="row" style="margin-top:14px"><button class="p" id="draw"'+(l.length<2?' disabled':'')+'>🎲 '+(R?'إعادة القرعة':'إجراء القرعة')+'</button>'+(R?'<button class="d" id="undraw">حذف القرعة</button>':'')+'</div>'+(l.length<2?'<p class="note">يلزم فريقان على الأقل.</p>':'');
+  const TM=getTeams(tab);
+  let h='<h3 style="margin-top:16px">الخطوة 1: تكوين الفرق (كل فريق لاعبان)</h3><div class="row"><button class="p" id="mkteams"'+(l.length<4?' disabled':'')+'>👥 '+(TM?'إعادة تكوين الفرق':'تكوين الفرق عشوائيًا')+'</button></div>';
+  if(l.length<4)h+='<p class="note">يلزم 4 مشتركين على الأقل.</p>';
+  else if(l.length%2&&!TM)h+='<p class="note">⚠️ العدد فردي: سيبقى مشترك واحد احتياطيًا بدون فريق.</p>';
+  if(TM){
+    h+=teamsTable(tab);
+    const sp=l.filter(x=>!inTeams(TM,x.i));
+    if(sp.length)h+='<p class="note">احتياطي بدون فريق: '+sp.map(x=>'<span class="tag">'+esc(x.n)+'</span>').join(' ')+'</p>';
+  }
+  h+='<h3 style="margin-top:16px">الخطوة 2: القرعة بين الفرق</h3><div class="row"><button class="p" id="draw"'+(TM&&TM.length>=2?'':' disabled')+'>🎲 '+(R?'إعادة القرعة بين الفرق':'إجراء القرعة بين الفرق')+'</button>'+(R?'<button class="d" id="undraw">حذف القرعة</button>':'')+'</div>';
+  if(!TM)h+='<p class="note">كوّن الفرق أولًا ثم أجرِ القرعة.</p>';
+  return h;
+}
+function publicNote(t){return '<p class="note">'+(t==='tennis'?'عدد الفرق المسجّلة':'عدد المشتركين')+': <b>'+cnt(t)+'</b> — ستظهر الفرق والقرعة هنا بعد إجرائها.</p>'}
+function teamsTable(t){
+  let rows;
+  if(t==='tennis'){const R=getR(t);rows=R?allSlots(R[0]).filter(x=>x.p1).map(x=>({n:x.n,p1:x.p1,p2:x.p2})):[]}
+  else{const TM=getTeams(t);rows=TM?TM.map(x=>({n:x.n,p1:x.p1,p2:x.p2})):[]}
+  if(!rows.length)return '';
+  return '<h3 style="margin-top:12px">📋 جدول الفرق ('+rows.length+')</h3><div style="overflow-x:auto"><table class="tbl"><thead><tr><th>#</th><th>اسم الفريق</th><th>اللاعب الأول</th><th>اللاعب الثاني</th></tr></thead><tbody>'+
+  rows.map((x,k)=>'<tr><td>'+(k+1)+'</td><td class="tn">'+esc(x.n)+'</td><td>'+esc(x.p1)+'</td><td>'+esc(x.p2)+'</td></tr>').join('')+'</tbody></table></div>';
+}
+function adminView(){
+  const o=location.origin;
+  let h='<div class="card links"><h2>الروابط</h2><h3>الرابط الأول — الأدمن</h3><div class="row"><input readonly value="'+esc(o)+'/admin"><button data-copy="'+esc(o)+'/admin">نسخ</button></div>'+
+  '<h3 style="margin-top:10px">الرابط الثاني — المشتركون</h3><div class="row"><input readonly value="'+esc(o)+'/"><button data-copy="'+esc(o)+'/">نسخ</button></div></div>';
+  const l=regList(tab),R=getR(tab),need=tab==='tennis'?2:4;
+  h+='<div class="card"><h2>إدارة البطولات</h2>'+tabsHTML()+
+  '<div class="row" style="margin:8px 0"><label class="note">'+(tab==='tennis'?'الحد الأقصى للفرق':'الحد الأقصى للمشتركين')+':</label><input id="lim" type="number" min="0" inputmode="numeric" style="max-width:110px" placeholder="بدون حد" value="'+(LIM[tab]||'')+'"><button id="savelimit">حفظ الحد</button></div><h3>المشتركون ('+l.length+(LIM[tab]?' / '+LIM[tab]:'')+')</h3><ul class="plist">'+
+  l.map((x,k)=>'<li><span class="n">'+(k+1)+'</span><span>'+esc(x.n)+(tab==='tennis'?teamOf({t:'tennis',p1:x.p1,p2:x.p2}):'')+(x.demo?' <span class="tag">تجريبي</span>':'')+(tab!=='tennis'&&getTeams(tab)&&!inTeams(getTeams(tab),x.i)?' <span class="tag">احتياطي</span>':'')+'</span><button data-ren="'+esc(x.i)+'">تعديل</button><button class="d" data-del="'+esc(x.i)+'">حذف</button></li>').join('')+
+  (l.length?'':'<li class="note">لا يوجد مشتركون</li>')+'</ul>'+
+  '<div class="row"><input id="addn" placeholder="'+(tab==='tennis'?'إضافة فريق (اسم الفريق)':'إضافة مشترك (اسم ثلاثي)')+'" maxlength="40"><button id="add">إضافة</button></div>'+
+  '<div class="row" style="margin-top:8px"><button id="demo">🧪 إضافة مشتركين تجريبيين</button>'+(Object.values(regs).some(r=>r.demo)?'<button class="d" id="democlear">حذف التجريبيين</button>':'')+'</div>'+
+  drawControls(l,R)+
+  '<h3 style="margin-top:16px">القرعة</h3><p class="note">يمكنك تغيير أي اسم في الدور الأول من القائمة، وتحديد الفائز بزر «فاز».</p>'+bracketHTML(tab,true)+'</div>'+
+  '<div class="card"><h2>منطقة الخطر</h2><p class="note">يمسح جميع المشتركين وجميع القرعات في كل البطولات نهائيًا.</p><button class="d" id="resetall">🗑️ تصفير كل البيانات</button></div>';
+  return h;
+}
+function render(force){
+  const a=document.activeElement;
+  if(!force&&a&&['INPUT','SELECT'].includes(a.tagName)){pending=true;return}
+  pending=false;
+  if(loadErr){$app.innerHTML='<div class="card msg">تعذّر الاتصال بالخادم، أعد تحميل الصفحة.</div>';return}
+  if(!ready)return;
+  $app.innerHTML=ADMIN?(token?adminView():loginView()):joinView();
+}
+document.addEventListener('focusout',()=>{if(pending)setTimeout(()=>render(),50)});
+
+/* ---------- events ---------- */
+document.addEventListener('input',e=>{const k={nm:'name',tm:'team',p1:'p1',p2:'p2'}[e.target.id];if(k)form[k]=e.target.value});
+document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='pw')document.getElementById('login').click()});
+document.addEventListener('change',async e=>{
+  const s=e.target.dataset&&e.target.dataset.slot;if(!s)return;
+  const [t,r,i,side]=s.split('|');const R=getR(t);const m=R[+r][+i];
+  const v=e.target.value;
+  const pool=t==='tennis'?regList(t).map(x=>({i:x.i,n:x.n,p1:x.p1,p2:x.p2})):allSlots(R[0]);
+  const p=v?pool.find(x=>x.i===v):null;
+  const prev=m[side];let loc=null;
+  if(p)R[0].forEach(mm=>['a','b'].forEach(sd=>{if(mm[sd]&&mm[sd].i===p.i&&!(mm===m&&sd===side))loc=[mm,sd]}));
+  m[side]=p?Object.assign({},p):null;
+  if(loc){loc[0][loc[1]]=prev||null;loc[0].w=null;delete loc[0].sa;delete loc[0].sb;delete loc[0].sk}
+  m.w=null;delete m.sa;delete m.sb;delete m.sk;
+  await saveR(t,R);
+});
+document.addEventListener('click',async e=>{
+  const b=e.target.closest('[data-tab],[data-pick],[data-win],[data-ren],[data-del],[data-copy],#go,#add,#draw,#undraw,#login,#savelimit,#mkteams,#resetall,#demo,#democlear,[data-save],[data-clr]');
+  if(!b)return;
+  if(b.dataset.tab){tab=b.dataset.tab;render(true);return}
+  if(b.dataset.pick&&isFull(b.dataset.pick)){alert('اكتمل عدد المشتركين في '+tn(b.dataset.pick));return}
+  if(b.dataset.pick){const n=document.getElementById('nm');if(n)form.name=n.value;form.t=b.dataset.pick;render(true);return}
+  if(b.dataset.copy){try{await navigator.clipboard.writeText(b.dataset.copy);b.textContent='تم ✓'}catch(x){b.textContent='انسخ يدويًا'}return}
+  try{
+    if(b.id==='login'){
+      try{const j=await api('POST','/api/admin/login',{password:document.getElementById('pw').value});token=j.token;sessionStorage.setItem('tk',token);last='';await load();render(true)}
+      catch(x){alert(x.status===401?'كلمة المرور غير صحيحة':'تعذّر الاتصال بالسيرفر ('+(x.status||x.message)+') — تأكد أنك رفعت server.js الجديد')}return;
+    }
+    if(b.id==='go'){
+      if(!form.t){alert('اختر بطولة');return}
+      const body={cid,t:form.t};
+      if(form.t==='tennis'){
+        const team=form.team.trim(),p1=form.p1.trim(),p2=form.p2.trim();
+        if(!team){alert('اكتب اسم الفريق');return}
+        if(!triple(p1)||!triple(p2)){alert('اسم كل لاعب لازم يكون ثلاثي');return}
+        if(p1.replace(/\s+/g,' ')===p2.replace(/\s+/g,' ')){alert('اللاعبان لازم يكونان شخصين مختلفين');return}
+        Object.assign(body,{team,p1,p2});
+      }else{
+        const name=form.name.trim();
+        if(!triple(name)){alert('اكتب اسمك الثلاثي');return}
+        body.name=name;
+      }
+      b.disabled=true;
+      try{await api('POST','/api/register',body)}
+      catch(x){alert(x.message==='full'?'اكتمل عدد المشتركين في هذه البطولة':x.message==='already'?'أنت مسجّل مسبقًا':x.message==='dup'?'أحد هذه الأسماء مسجّل مسبقًا':'تعذّر التسجيل، تأكد من البيانات');b.disabled=false}
+      await load();render(true);return;
+    }
+    if(b.id==='add'){
+      const name=document.getElementById('addn').value.trim();if(!name)return;
+      const body={name,team:name,t:tab};
+      if(tab==='tennis'){const p1=(prompt('اللاعب الأول (اسم ثلاثي)')||'').trim(),p2=(prompt('اللاعب الثاني (اسم ثلاثي)')||'').trim();body.p1=p1;body.p2=p2;if(!triple(p1)||!triple(p2)){alert('اسم كل لاعب لازم يكون ثلاثي');return}}
+      else if(!triple(name)){alert('الاسم لازم يكون ثلاثي');return}
+      try{await api('POST','/api/admin/reg',body)}catch(x){alert(x.message==='full'?'اكتمل العدد الأقصى للبطولة':x.message==='dup'?'أحد الأسماء مسجّل مسبقًا':'بيانات غير صحيحة');return}
+    }else if(b.dataset.ren){
+      const id=b.dataset.ren,r=regs[id],t=r.t;const nn0=prompt(t==='tennis'?'اسم الفريق':'الاسم الثلاثي',r.n);if(!nn0||!nn0.trim())return;const nn=nn0.trim();
+      const body={name:nn};
+      if(t==='tennis'){const a1=prompt('اللاعب الأول (اسم ثلاثي)',r.p1||'');if(!a1)return;const a2=prompt('اللاعب الثاني (اسم ثلاثي)',r.p2||'');if(!a2)return;body.p1=a1.trim();body.p2=a2.trim();if(!triple(body.p1)||!triple(body.p2)){alert('اسم كل لاعب لازم يكون ثلاثي');return}}
+      else if(!triple(nn)){alert('الاسم لازم يكون ثلاثي');return}
+      try{await api('PATCH','/api/admin/reg/'+id,body)}catch(x){alert(x.message==='dup'?'أحد الأسماء مسجّل مسبقًا':'بيانات غير صحيحة');return}
+      if(t!=='tennis'){const TM=getTeams(t);if(TM){TM.forEach(x=>{const k=x.ids.indexOf(id);if(k===0)x.p1=nn;if(k===1)x.p2=nn});await api('PUT','/api/admin/draw/'+t+'_teams',{r:JSON.stringify({teams:TM})})}}
+      const R=getR(t);if(R){R.forEach(rd=>rd.forEach(m=>['a','b'].forEach(s=>{const x=m[s];if(!x)return;if(x.i===id){x.n=nn;if(body.p1){x.p1=body.p1;x.p2=body.p2}}if(x.ids){const k=x.ids.indexOf(id);if(k===0)x.p1=nn;if(k===1)x.p2=nn}})));await saveR(t,R)}
+    }else if(b.dataset.del){
+      const id=b.dataset.del;if(!confirm('حذف «'+regs[id].n+'»؟'))return;
+      const t=regs[id].t;await api('DELETE','/api/admin/reg/'+id);
+      if(t!=='tennis'){const TM=getTeams(t);if(TM)await api('PUT','/api/admin/draw/'+t+'_teams',{r:JSON.stringify({teams:TM.filter(x=>!x.ids.includes(id))})})}
+      const R=getR(t);if(R){const gone=new Set();R[0].forEach(m=>['a','b'].forEach(s=>{const x=m[s];if(x&&(x.i===id||(x.ids&&x.ids.includes(id)))){gone.add(x.i);m[s]=null}}));R.forEach(rd=>rd.forEach(m=>{if(m.w&&gone.has(m.w))m.w=null}));await saveR(t,R)}
+    }else if(b.id==='savelimit'){
+      const raw=document.getElementById('lim').value.trim();const v=raw===''?0:parseInt(raw);
+      if(isNaN(v)||v<0){alert('اكتب رقمًا صحيحًا');return}
+      const cur=regList(tab).length;
+      if(v>0&&v<cur&&!confirm('الحد ('+v+') أقل من عدد المسجلين الحالي ('+cur+'). لن يُحذف أحد، لكن لن يستطيع أحد التسجيل. متابعة؟'))return;
+      await api('PUT','/api/admin/limit',{t:tab,limit:v});
+      alert(v?'تم حفظ الحد: '+v:'تم إلغاء الحد (بدون حد أقصى)');
+    }else if(b.id==='mkteams'){
+      const L=regList(tab);if(L.length<4){alert('يلزم 4 مشتركين على الأقل');return}
+      const had=getTeams(tab),R0=getR(tab);
+      const {teams,spare}=makeTeams(L.map(x=>({i:x.i,n:x.n})));
+      if(spare&&!confirm('العدد فردي: «'+spare.n+'» سيبقى احتياطيًا بدون فريق. متابعة؟'))return;
+      if((had||R0)&&!confirm('ستُستبدل الفرق الحالية وتُحذف القرعة إن وجدت. متابعة؟'))return;
+      if(R0)await api('DELETE','/api/admin/draw/'+tab);
+      await api('PUT','/api/admin/draw/'+tab+'_teams',{r:JSON.stringify({teams})});
+    }else if(b.id==='draw'){
+      if(getR(tab)&&!confirm('ستُستبدل القرعة الحالية بقرعة جديدة. متابعة؟'))return;
+      const L=regList(tab);
+      if(tab==='tennis'){
+        if(L.length<2){alert('يلزم فريقان على الأقل');return}
+        await saveR(tab,makeRounds(L.map(x=>({i:x.i,n:x.n,p1:x.p1,p2:x.p2}))));
+      }else{
+        const TM=getTeams(tab);
+        if(!TM||TM.length<2){alert('كوّن الفرق أولًا');return}
+        await saveR(tab,makeRounds(TM.map(x=>Object.assign({},x))));
+      }
+    }else if(b.dataset.save){
+      const [t,r,i]=b.dataset.save.split('|');
+      const ia=document.querySelector('[data-sc="'+t+'|'+r+'|'+i+'|a"]'),ib=document.querySelector('[data-sc="'+t+'|'+r+'|'+i+'|b"]');
+      const sa=parseInt(ia.value),sb=parseInt(ib.value);
+      if(isNaN(sa)||isNaN(sb)||sa<0||sb<0){alert('اكتب نتيجة الطرفين (أرقام)');return}
+      if(sa===sb){alert('لا يمكن التعادل في الأدوار الإقصائية، حدّد فائزًا');return}
+      const R=getR(t);const m=R[+r][+i];
+      m.sa=sa;m.sb=sb;m.w=sa>sb?m.a.i:m.b.i;m.sk=m.a.i+'|'+m.b.i;await saveR(t,R);return;
+    }else if(b.dataset.clr){
+      const [t,r,i]=b.dataset.clr.split('|');const R=getR(t);const m=R[+r][+i];
+      m.w=null;delete m.sa;delete m.sb;delete m.sk;await saveR(t,R);return;
+    }else if(b.id==='demo'){
+      const c=parseInt(prompt(tab==='tennis'?'كم عدد الفرق التجريبية؟':'كم عدد المشتركين التجريبيين؟','8'));if(!c||c<1)return;
+      try{await api('POST','/api/admin/demo',{t:tab,count:Math.min(c,32)})}catch(x){if(x.message==='full')alert('اكتمل العدد الأقصى للبطولة');else throw x}
+    }else if(b.id==='democlear'){
+      if(!confirm('حذف كل المشتركين التجريبيين، وقرعات البطولات التي تحتويهم؟'))return;
+      await api('POST','/api/admin/demo-clear',{});
+    }else if(b.id==='resetall'){
+      if(!confirm('سيتم حذف كل المشتركين وكل القرعات في جميع البطولات. هل أنت متأكد؟'))return;
+      if(prompt('للتأكيد اكتب كلمة: تصفير')!=='تصفير'){alert('تم الإلغاء');return}
+      await api('POST','/api/admin/reset',{});
+    }else if(b.id==='undraw'){
+      if(confirm('حذف القرعة؟'))await api('DELETE','/api/admin/draw/'+tab);
+    }else if(b.dataset.win){
+      const [t,r,i,pid]=b.dataset.win.split('|');const R=getR(t);const m=R[+r][+i];
+      m.w=(m.w===pid)?null:pid;delete m.sa;delete m.sb;delete m.sk;await saveR(t,R);return;
+    }
+    await load();render(true);
+  }catch(err){alert('حدث خطأ، حاول مرة أخرى')}
+});
+
+load();setInterval(load,4000);
+</script>
+</body>
+</html>
